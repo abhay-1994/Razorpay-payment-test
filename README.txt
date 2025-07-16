@@ -84,3 +84,25 @@ This project is for **educational purposes** only and follows the MIT license.
 - [LinkedIn Profile](https://www.linkedin.com/in/abhay-kumar-qa/)
 - [GitHub](https://github.com/abhay-1994)
 
+Project Structure
+razorpay-payment-test/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/payment/     # Your Spring Boot Java files (controllers, services)
+│   │   ├── resources/
+│   │   │   ├── application.properties
+│   │   │   └── static/
+│   │   │       ├── index.html
+│   │   │       ├── success.html
+│   │   │       └── failure.html
+│   │   └── templates/ (if using Thymeleaf)
+│   └── test/
+│       └── java/
+│           └── com/example/payment/     # Optional: Automation test cases
+│
+├── .gitignore
+├── pom.xml
+├── README.md
+└── LICENSE
