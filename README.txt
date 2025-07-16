@@ -29,7 +29,7 @@ This project demonstrates how to integrate and test **Razorpay payment gateway**
 
 ### 📥 Clone the Repository
 ```bash
-git clone https://github.com/your-username/razorpay-payment-test.git
+git clone https://github.com/abhay-1994/Razorpay-payment-test
 ```
 
 ### 📂 Import in Eclipse
