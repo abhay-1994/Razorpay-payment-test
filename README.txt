@@ -1,22 +1,86 @@
+# Razorpay Payment Gateway Automation (Spring Boot + HTML + JavaScript)
 
-# Razorpay Payment Test (Spring Boot + HTML/JS)
+This project demonstrates how to integrate and test **Razorpay payment gateway** using **Spring Boot (Backend)** and **HTML/JavaScript (Frontend)**, designed for educational and testing purposes using **Razorpay Sandbox Test Keys**.
 
-## Steps to Run:
+---
 
-1. Open Eclipse, go to File -> Import -> Maven -> Existing Maven Projects -> Select this folder.
-2. Update the file: src/main/resources/application.properties with your Razorpay API keys:
+## 🚀 Features
 
+- ✅ Payment Gateway Integration with **Razorpay Test Mode**
+- ✅ Simple Frontend using HTML, CSS, JS
+- ✅ Backend API using **Spring Boot**
+- ✅ Successful and Failed Payment Handling
+- ✅ Redirect to Success or Failure Page after Payment
+- ✅ Suitable for learning **Payment Flow Automation**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Java (Spring Boot)** – Backend API
+- **HTML + JavaScript** – Frontend UI
+- **Razorpay Java SDK**
+- **Maven** – Dependency Management
+- **Selenium / API Testing** *(Optional if you have automation test cases)*
+
+---
+
+## 💻 How to Run
+
+### 📥 Clone the Repository
+```bash
+git clone https://github.com/your-username/razorpay-payment-test.git
+```
+
+### 📂 Import in Eclipse
+- File → Import → Maven → Existing Maven Projects → Browse project folder.
+
+### ⚙️ Setup API Keys
+- Open: `src/main/resources/application.properties`
+```properties
 razorpay.key_id=YOUR_TEST_KEY_ID
 razorpay.key_secret=YOUR_TEST_KEY_SECRET
+```
+- Open: `index.html` and update with your Razorpay test key.
 
-Also, replace YOUR_KEY_ID in index.html JS with your key.
+### ▶️ Run Application
+- Right-click project → Run As → Spring Boot App.
 
-3. Run the application as Spring Boot App.
+### 🌐 Access Application
+Visit: [http://localhost:8080/index.html](http://localhost:8080/index.html)
 
-4. Open: http://localhost:8080/index.html in browser.
+✅ Test payment success/failure using Razorpay test credentials.
 
-5. Click "Pay Now" to test Razorpay payment flow (using Razorpay Sandbox Test keys).
+---
 
-After successful payment → will redirect to /success.html
-If payment fails → will redirect to /failure.html
+## 📌 Test Credentials (from Razorpay Docs)
+- **Card Number:** 4111 1111 1111 1111
+- **CVV:** 123
+- **Expiry:** Any future date
+- **OTP:** 123456
+
+---
+
+## 📝 Screenshots
+*(Optional: You can add images of UI, success/failure pages here)*
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📜 License
+
+This project is for **educational purposes** only and follows the MIT license.
+
+---
+
+## 🙋‍♂️ Author
+
+- Abhay Kumar
+- [LinkedIn Profile](https://www.linkedin.com/in/abhay-kumar-qa/)
+- [GitHub](https://github.com/abhay-1994)
 
